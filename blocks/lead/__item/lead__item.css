@@ -1,0 +1,32 @@
+.lead__item {
+  max-width: 984px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__item {
+    max-width: 928px;
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__item {
+    max-width: 768px;
+    max-height: 480px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__item {
+    min-height: 200px;
+    max-width: 320px;
+  }
+}

@@ -1,0 +1,19 @@
+.header__container {
+  max-height: 52px;
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header {
+    max-width: 720px;
+    padding-top: 16px;
+  }
+}
